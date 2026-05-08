@@ -1,6 +1,6 @@
 cask "easyhotkeys" do
   version "1.0.0"
-  sha256 "3a66f3a74f1856426172a75c51442057ce50571c73d21fb49cb9b437d336717d"
+  sha256 "7e538c2a22cf78af08e7d909baffe76257b61bc9030b447237b167ca6e8ccccf"
 
   url "https://github.com/MikeCVermeer/EasyHotkeys/releases/download/v#{version}/EasyHotkeys-#{version}.zip"
   name "EasyHotkeys"
