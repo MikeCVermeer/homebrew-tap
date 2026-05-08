@@ -7,6 +7,8 @@ cask "easyhotkeys" do
   desc "Menu-bar utility for inserting text snippets with global hotkeys"
   homepage "https://github.com/MikeCVermeer/EasyHotkeys"
 
+  depends_on macos: ">= :ventura"
+
   app "EasyHotkeys.app"
 
   zap trash: [
